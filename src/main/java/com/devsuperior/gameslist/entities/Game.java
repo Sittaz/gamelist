@@ -7,7 +7,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "tb_game")
 public class Game {
-    @jakarta.persistence.Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
     private String title;
